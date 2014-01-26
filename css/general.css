@@ -1,0 +1,50 @@
+html {
+    font-family: Georgia, "Times New Roman", serif;
+    
+}
+
+body{
+    background-color:#b5b253;
+}
+
+h1 {
+    font-family: Helvetica, Univers, sans-serif;
+    font-size: 3rem;
+    font-weight:normal;
+    color: #b22305
+
+}
+
+strong {
+    font-weight: bold;
+    color: #b22305
+
+}
+}
+
+p, li {
+    font-size: 1rem;
+    line-height: 1.5rem
+}
+
+
+
+h1 + p { /* only styles the first paragraph after the heading */
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    background-color: #f3cb97;
+}
+
+hr {
+    border-top: 3px dotted; /* size + solid, dashed or dotted + colour */
+    border-bottom: solid;
+    color: #b22305
+}
+
+ul, ol {
+    background-color: #f3cb97;
+}
+    
+ol li:last-child {
+    background-color: #FFF;
+}
